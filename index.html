@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!-- <p>A basic timeline. You can move and zoom the timeline, and select items.</p> -->
+<div class="container">
+    <div class="text">
+    Computer Name :
+    <select class="dropdown" id="sageCRMid" onchange="(this.value)" data-dropdown></select>
+    </div>
+<!-- <select id="mySelect" onchange="(this.value)"></select> -->
+<div id="visualization"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.js"></script>
+<script src="./json.js"></script>
+<script src="./common.js"></script>
+</html>
